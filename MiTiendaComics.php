@@ -20,7 +20,7 @@ aplicarDescuentoManga();
 // mostramos el inventario actualizado
 mostrarComicsEnTabla();
 mostrarValorAlmacen();
-
+//aaalalal
 function mostrarComicsEnTabla()
 {
     global $inventario;
