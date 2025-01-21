@@ -1,5 +1,6 @@
 <?php
 // Definición del inventario de cómics
+
 $inventario = [
     'suspense_terror' => [
         ['titulo' => 'The Long Halloween', 'editorial' => 'DC', 'autor' => 'Tim Sale', 'idioma' => 'Inglés', 'precio' => 20, 'stock' => 10],
@@ -21,6 +22,7 @@ aplicarDescuentoManga();
 mostrarComicsEnTabla();
 mostrarValorAlmacen();
 //aaalalal
+
 function mostrarComicsEnTabla()
 {
     global $inventario;
@@ -44,6 +46,7 @@ function mostrarComicsEnTabla()
 
     echo '</table>';
 }
+//EXERCICI 9
 
 function mostrarValorAlmacen()
 {
@@ -64,6 +67,8 @@ function mostrarValorAlmacen()
 
     echo "Precio total almacen " . $total . "<br><br>";
 }
+
+//EXERCICI 10
 
 function aplicarDescuentoManga()
 {

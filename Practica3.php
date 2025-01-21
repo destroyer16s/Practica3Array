@@ -78,8 +78,17 @@
     echo"Media de las notas: ";
     echo round(array_sum($notas) /count($notas),precision:2);
 
+    echo "<br>";
+    echo "<br>";
+
     echo"Exercici 8<br>";
 
+
+    $notaMaxima = max($notas);
+    $mejorAlumno = array_search($notaMaxima, $notas);
+
+    echo "Mejor alumno: $mejorAlumno con una nota de $notaMaxima";
+    
     ?>
 
 </body>
